@@ -19,7 +19,7 @@ public class Circulo extends Figura {
 
     @Override
     public String toString() {
-        return super.toString();
+        return ponto.toString() + "\nRaio: " + raio;
     }
 
     public Ponto getPonto() {

@@ -11,7 +11,7 @@ public class Ponto {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "(" + coordenadaX + ", " + coordenadaY + ")";
     }
 
     public int getCoordenadaX() {
